@@ -57,7 +57,6 @@ x = str(x)
 print ('Hello ' + z + ', ' + 'the time is ' + x + " o'clock")
 ###########################################################################
 
-
 ###########################################################################
 # Math
 # My final goal is to create a web app that I will use to determine the # of shares to purchase
@@ -72,9 +71,5 @@ print(x + y)
 # Division
 x = 500 # price per share
 y = 200000 # amount of money for purchase
-
 print (y / x) # numner of shares you can buy
-
-
-print(c / 2)
-
+###########################################################################
