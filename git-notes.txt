@@ -1,0 +1,12 @@
+# setting up git with account
+git config --global user.name “[firstname lastname]”
+
+git config --global user.email “[valid-email]”
+
+
+
+# this will select all files to be commited
+git add * 
+git commit -m "adding Day 1"
+git push
+
