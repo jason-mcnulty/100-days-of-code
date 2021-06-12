@@ -1,5 +1,6 @@
 # Day 1 
 # Back to basics, a lot of this was inspired from https://www.w3schools.com/python/default.asp
+# I also used code by following http://automatetheboringstuff.com/
 
 ###########################################################################
 # Working with variables
@@ -44,21 +45,33 @@ print(x)
 print(y)
 print ('It is such a' + z)
 
-###########################################################################
-# Convert from one type to another:
+# Using string replication 
+name = 'John '
+print (name * 3)
 
+###########################################################################
+# Data types
+# Intigers == int == 3
+# Float == float == 3.4 
+# String == str == 'cat'
+
+ 
+
+
+
+
+# Convert from one type to another:
 x = 5
 y = "Five"
 z = "John"
 
 # Convert x from int to a string
 x = str(x)
-
 print ('Hello ' + z + ', ' + 'the time is ' + x + " o'clock")
 ###########################################################################
 
 ###########################################################################
-# Math
+# Math - Expressions
 # My final goal is to create a web app that I will use to determine the # of shares to purchase
 # given the amount of money to spend
 
@@ -72,4 +85,30 @@ print(x + y)
 x = 500 # price per share
 y = 200000 # amount of money for purchase
 print (y / x) # numner of shares you can buy
+
+# Multiplication
+x = 2
+y = 10
+print (x * y)
+
+# Order of operiations are used 
+# Simple
+x = 2
+y = 10
+z = 6
+print (x + y * z)
+
+# More complex
+x = 2
+y = 10
+z = 6
+print ((x + y) * z)
+
+# Even more complex 
+a = 20
+w = 10
+x = 2
+y = 10
+z = 6
+print ((a - w ) * ((x + y ) / (z - y)))
 ###########################################################################
