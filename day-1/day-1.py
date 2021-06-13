@@ -55,17 +55,17 @@ print (name * 3)
 # Float == float == 3.4 
 # String == str == 'cat'
 
- 
-
-
-
-
-# Convert from one type to another:
+# Convert x from int to a string
 x = 5
 y = "Five"
 z = "John"
+x = str(x)
+print ('Hello ' + z + ', ' + 'the time is ' + x + " o'clock")
 
-# Convert x from int to a string
+# Convert x from float to a string
+x = 5.5
+y = "Five"
+z = "John"
 x = str(x)
 print ('Hello ' + z + ', ' + 'the time is ' + x + " o'clock")
 ###########################################################################

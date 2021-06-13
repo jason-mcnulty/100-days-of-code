@@ -31,17 +31,19 @@ print('How many shares do you want to buy')
 number_shares = input()
 stock_price = 350.00 # this will eventually come from a web API 
 
-
-# Convert strings and folats to ints for math
-
+# Convert strings to int or float
+int_number_shares = int(number_shares)
+#int_stock_price = int(stock_price ) # I will not need this until the stock price is pulled from a API
 
 # Perform math here
+total = int_number_shares * stock_price
 
-
-
-total = int(str(number_shares)) * int(float(stock_price))
+# Convert to strings
+str_number_shares = str(number_shares)
+str_stock_price = str(stock_price)
+str_total = str(total)
 
 # Output
-print ('You are about tp purchase ' + str(int(number_shares) + 'of ' + stock_ticker + 'at a price of ' + str(int(stock_price))))
-print(' for a total of ' + str(int(total)))
+print ('You are about tp purchase ' + str_number_shares + 'of ' + stock_ticker + 'at a price of ' + str_stock_price)
+print(' for a total of ' + str_total)
 ###########################################################################
