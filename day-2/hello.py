@@ -1,4 +1,4 @@
-# This will show how to input varibles from a prompt and how to get the length of a varible
+# This will show how to input varibles from a prompt and how to output the results
 print('Hello World!')
 print('What is your name?')
 ###########################################################################
@@ -11,3 +11,4 @@ print (len(my_name))
 print('Wnat is your age? ')
 my_age = input()
 print('you will be ' + str(int(my_age) + 1 ) + ' in one year')
+

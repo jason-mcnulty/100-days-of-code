@@ -68,6 +68,26 @@ y = "Five"
 z = "John"
 x = str(x)
 print ('Hello ' + z + ', ' + 'the time is ' + x + " o'clock")
+
+# This is the way the conversion is taught by Al
+age = '10' # this is a string. You can not perform math on a string
+# This will first convert the string to a int, perform the math function, then convert it to a string.
+print('you will be ' + str(int(age) + 1 ) + ' in one year')
+
+# another example
+print('what is your age? ')
+age=input() # the input will be a string 
+type(age) # this will show it is a string
+# you can convert the string to an int this way
+#int_age = int(age)
+#type(int_age)
+# now you can perform math 
+#total = int_age + 1
+#print(total)
+#type(total) # this will come back as an int
+# you can not concatenate a int within a string
+# you can convert "in line" 
+print('you will be ' + str(int(age) + 1 ) + ' in one year')
 ###########################################################################
 
 ###########################################################################
