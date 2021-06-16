@@ -68,3 +68,37 @@ age = 43
 age_next_year = 53
 result = age != 43 or age_next_year >= 43
 print (result)
+
+##########################################################################
+# if, else, and elif statements 
+# elif statements allow you to add more than one else stement
+name = 'jason'
+if name == 'jason':
+    print('hi ' + name)
+else: 
+    print('false')
+print('done')
+
+# example with using input
+print('guess the password')
+password = input()
+if password == 'sowardfish':
+    print('access granted')
+else:
+    print('your password was ' + password + '.'+ ' access denied')
+print('done') 
+
+# using elif
+print('what is your name? ')
+name = input()
+age = 43
+if name == 'jason':
+    print('hi jason')
+elif age == 43:
+    print('you are' + age)
+elif age < 50:
+    print ('you are ' + age)
+elif name == 'bob':
+    print('its really you ' + name)
+
+##########################################################################
